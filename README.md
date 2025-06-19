@@ -45,11 +45,11 @@ modern-website/
 # Installation & Usage
 **Clone the repository or download the ZIP file:**
 
-git clone https://github.com/yourusername/modern-website.git
+git clone https://github.com/Duggineniakhil/Frontend-Battle-Round-1/blob/main/README.md
 
 **Navigate to the project directory:**
 
-cd modern-website
+cd Frontend-Battle-Round-1
 
 # Customization
 **Content:**
