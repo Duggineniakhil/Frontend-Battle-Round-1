@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website - Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark-mode.css" id="dark-mode-style" disabled>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">ModernSite</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="showcase.html" class="active">Showcase</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="customers.html">Customers</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span class="toggle-ball"></span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Showcase Hero -->
+    <section class="page-hero parallax">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our collection of successful projects and creative solutions</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">Mobile Apps</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="grid">
+                <div class="portfolio-item web" data-category="web">
+                    <img src="images/portfolio1.jpg" alt="Web Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Full online store solution with custom CMS</p>
+                        <a href="#" class="portfolio-link ripple">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item app" data-category="app">
+                    <img src="images/portfolio2.jpg" alt="App Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Fitness Mobile App</h3>
+                        <p>iOS and Android workout tracking application</p>
+                        <a href="#" class="portfolio-link ripple">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item branding" data-category="branding">
+                    <img src="images/portfolio3.jpg" alt="Branding Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Branding</h3>
+                        <p>Complete visual identity for tech startup</p>
+                        <a href="#" class="portfolio-link ripple">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item web" data-category="web">
+                    <img src="images/portfolio4.jpg" alt="Web Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Business Portal</h3>
+                        <p>Custom SaaS platform for enterprise</p>
+                        <a href="#" class="portfolio-link ripple">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item graphic" data-category="graphic">
+                    <img src="images/portfolio5.jpg" alt="Graphic Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Marketing Materials</h3>
+                        <p>Print and digital campaign assets</p>
+                        <a href="#" class="portfolio-link ripple">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item app" data-category="app">
+                    <img src="images/portfolio6.jpg" alt="App Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Travel Planner App</h3>
+                        <p>Cross-platform trip organizer</p>
+                        <a href="#" class="portfolio-link ripple">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We create innovative digital solutions that help businesses grow and succeed in the online world.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="showcase.html">Showcase</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="customers.html">Customers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> india</p>
+                    <p><i class="fas fa-phone"></i> +91 9032855330</p>
+                    <p><i class="fas fa-envelope"></i> duggineniakhil15@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Akhil. All Rights Reserved.</p>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

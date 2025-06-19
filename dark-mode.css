@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #3a86ff;
+    --secondary-color: #8338ec;
+    --accent-color: #ff006e;
+    --text-color: #e2e2e2;
+    --light-text: #b0b0b0;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --header-bg: #1e1e1e;
+    --footer-bg: #121212;
+    --footer-text: #e2e2e2;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    background-color: var(--header-bg);
+    box-shadow: var(--shadow);
+}
+
+.nav ul li a {
+    color: var(--text-color);
+}
+
+.card, .graph-container, .testimonial-slide, 
+.faq-item, .faq-question, .faq-answer, 
+.logo-item, .case-card, .pricing-card,
+.tab-content, .service-details, .portfolio-item {
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow);
+}
+
+.filter-btn, .tab-btn {
+    background-color: #333;
+    color: var(--text-color);
+}
+
+.filter-btn.active, .filter-btn:hover,
+.tab-btn.active, .tab-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.theme-toggle {
+    background-color: #444;
+}
+
+.theme-toggle i {
+    color: #ddd;
+}
+
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+}
+
+.loader {
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+.loader-spinner {
+    border: 5px solid #333;
+    border-top: 5px solid var(--primary-color);
+}
+
+.popup {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.popup .btn {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+.popup .btn:hover {
+    background-color: #2a2a2a;
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website - Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark-mode.css" id="dark-mode-style" disabled>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">ModernSite</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="showcase.html">Showcase</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="customers.html">Customers</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span class="toggle-ball"></span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Hero -->
+    <section class="page-hero parallax">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Comprehensive solutions tailored to your business needs</p>
+        </div>
+    </section>
+
+    <!-- Services Tabs -->
+    <section class="services-tabs">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="web">Web Development</button>
+                <button class="tab-btn" data-tab="mobile">Mobile Apps</button>
+                <button class="tab-btn" data-tab="design">UI/UX Design</button>
+                <button class="tab-btn" data-tab="marketing">Digital Marketing</button>
+                <button class="tab-btn" data-tab="consulting">Consulting</button>
+            </div>
+            
+            <div class="tab-content active" id="web">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/web-dev.jpg" alt="Web Development">
+                    </div>
+                    <div class="service-info">
+                        <h2>Web Development</h2>
+                        <p>We create responsive, high-performance websites that deliver exceptional user experiences. Our development process focuses on clean code, scalability, and seamless functionality across all devices.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Custom WordPress Development</li>
+                            <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                            <li><i class="fas fa-check"></i> Progressive Web Apps</li>
+                            <li><i class="fas fa-check"></i> API Integrations</li>
+                            <li><i class="fas fa-check"></i> Ongoing Maintenance</li>
+                        </ul>
+                        <button class="btn ripple">Request Quote</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="mobile">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/mobile-apps.jpg" alt="Mobile Apps">
+                    </div>
+                    <div class="service-info">
+                        <h2>Mobile App Development</h2>
+                        <p>We build native and cross-platform mobile applications that engage users and deliver measurable business results. Our apps combine beautiful design with robust functionality.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> iOS App Development</li>
+                            <li><i class="fas fa-check"></i> Android App Development</li>
+                            <li><i class="fas fa-check"></i> React Native Cross-Platform</li>
+                            <li><i class="fas fa-check"></i> App Store Optimization</li>
+                            <li><i class="fas fa-check"></i> Push Notification Systems</li>
+                        </ul>
+                        <button class="btn ripple">Request Quote</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="design">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/ui-ux.jpg" alt="UI/UX Design">
+                    </div>
+                    <div class="service-info">
+                        <h2>UI/UX Design</h2>
+                        <p>We craft intuitive, visually stunning interfaces that enhance user engagement and drive conversions. Our user-centered design approach ensures your digital products are both beautiful and functional.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> User Research & Testing</li>
+                            <li><i class="fas fa-check"></i> Wireframing & Prototyping</li>
+                            <li><i class="fas fa-check"></i> Interaction Design</li>
+                            <li><i class="fas fa-check"></i> Design Systems</li>
+                            <li><i class="fas fa-check"></i> Accessibility Compliance</li>
+                        </ul>
+                        <button class="btn ripple">Request Quote</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="marketing">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/digital-marketing.jpg" alt="Digital Marketing">
+                    </div>
+                    <div class="service-info">
+                        <h2>Digital Marketing</h2>
+                        <p>We develop and execute data-driven marketing strategies that increase visibility, generate leads, and grow your business. Our full-funnel approach delivers measurable ROI.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> SEO & Content Strategy</li>
+                            <li><i class="fas fa-check"></i> Social Media Marketing</li>
+                            <li><i class="fas fa-check"></i> PPC Advertising</li>
+                            <li><i class="fas fa-check"></i> Email Marketing</li>
+                            <li><i class="fas fa-check"></i> Analytics & Reporting</li>
+                        </ul>
+                        <button class="btn ripple">Request Quote</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="consulting">
+                <div class="service-details">
+                    <div class="service-image">
+                        <img src="images/consulting.jpg" alt="Consulting">
+                    </div>
+                    <div class="service-info">
+                        <h2>Digital Consulting</h2>
+                        <p>We provide strategic guidance to help you navigate digital transformation and maximize your technology investments. Our experts align digital solutions with your business objectives.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Technology Audits</li>
+                            <li><i class="fas fa-check"></i> Digital Strategy Development</li>
+                            <li><i class="fas fa-check"></i> Process Optimization</li>
+                            <li><i class="fas fa-check"></i> Team Training</li>
+                            <li><i class="fas fa-check"></i> Implementation Support</li>
+                        </ul>
+                        <button class="btn ripple">Request Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2>Our Pricing Plans</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$499<span>/month</span></div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Basic Website</li>
+                        <li><i class="fas fa-check"></i> 5 Pages</li>
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> Basic SEO</li>
+                        <li><i class="fas fa-check"></i> Email Support</li>
+                    </ul>
+                    <button class="btn ripple">Get Started</button>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Business</h3>
+                    <div class="price">$999<span>/month</span></div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Custom Website</li>
+                        <li><i class="fas fa-check"></i> Up to 15 Pages</li>
+                        <li><i class="fas fa-check"></i> Advanced SEO</li>
+                        <li><i class="fas fa-check"></i> Content Management</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                    </ul>
+                    <button class="btn ripple">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$1999<span>/month</span></div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Full Custom Solution</li>
+                        <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                        <li><i class="fas fa-check"></i> E-commerce</li>
+                        <li><i class="fas fa-check"></i> Dedicated Developer</li>
+                        <li><i class="fas fa-check"></i> 24/7 Support</li>
+                    </ul>
+                    <button class="btn ripple">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What's included in your web development service?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our web development service includes custom design, responsive development, content integration, basic SEO setup, and deployment. We also provide training on how to manage your website and offer ongoing support options.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does a typical project take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on scope and complexity. A basic website typically takes 4-6 weeks, while more complex projects like e-commerce sites or custom web applications may take 8-12 weeks or longer. We provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide hosting and domain services?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer managed hosting solutions optimized for performance and security. We can also assist with domain registration and management. Alternatively, you're welcome to use your preferred hosting provider.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What if I need changes after the project is completed?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer various maintenance plans to handle updates and changes post-launch. For one-off changes, we bill at our standard hourly rate. All our projects include a 30-day warranty period for bug fixes at no additional cost.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We create innovative digital solutions that help businesses grow and succeed in the online world.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="showcase.html">Showcase</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="customers.html">Customers</a></li>
+                    </ul>
+                </div>
+               <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> india</p>
+                    <p><i class="fas fa-phone"></i> +91 9032855330</p>
+                    <p><i class="fas fa-envelope"></i> duggineniakhil15@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Akhil. All Rights Reserved.</p>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
